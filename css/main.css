@@ -1,0 +1,191 @@
+
+/****HEADER****/
+
+header {
+  background: linear-gradient(#336600, transparent 0%),
+              linear-gradient(0deg, #000, transparent 15%),
+              #ffa949 url('../img/woods.jpg') no-repeat center; /***Photo by Sven Schlager***/
+  background-size: cover;
+  text-align: center;
+  height: 300px;
+  padding: 10px 0 0 0;
+}
+.name {
+  font-family: 'Bitter' , serif;
+  color: #fff;
+  opacity: 1;
+  margin-top: 70px;
+  margin-bottom: 5px;
+  text-shadow: 2px 4px 2px black;
+  font-size: 3em;
+}
+
+.emily {
+  float: center;
+  padding: 0;
+  box-shadow: 10px 10px 50px 10px black;
+  border-radius: 110px;
+     
+}
+
+.title {
+  font-family: 'Bitter' , serif;
+  color: #fff;
+  text-shadow: 2px 4px 2px black;
+  margin-top: 10px;
+}
+
+/****HOME PAGE BODY****/
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ 
+ul.img-list li {
+  display: inline-block;
+  height: 220px;
+  margin: 2em 2em 2em 0;
+  position: relative;
+  width: 220px;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 110px;
+  }
+  
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  text-shadow: 2px 4px 2px black;
+  font-family: 'Bitter' , serif;
+  font-size: 3em;
+  display: table;
+  border-radius: 110px;
+  height: 220px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 220px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+ 
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+body {
+    background: linear-gradient(#000000 60%, #1b1b19);
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+/****ABOUT****/
+
+ul.navlist {
+  list-style-type: none;
+  display: inline-block;
+  float: center;
+  margin: 0 0 0 0; 
+}
+
+ul.navlist li {
+  display: inline-block;
+  padding: 1em;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+ul  a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  font-family: 'Bitter' , serif;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  padding: 2em, 2em, 2em, 2em;
+  margin: 5px;
+}
+
+.bio {
+  font-family: 'Bitter' , serif;
+  font-size: 1em;
+  width: 350px;
+  float: left;
+  margin: 25px 0 0 350px;
+  color: white;
+  text-shadow: 10px 10px 10px black;
+}
+
+.bigfoot {
+  float: right;
+  margin: 30px 350px 0 0;
+}
+
+/****PORTFOLIO****/
+
+.portfoliointro {
+	font-family: 'Bitter' , serif;
+	font-size: 4em;
+	color: white;
+}
+
+.portfoliointro p {
+	text-align: center;
+}
+
+/****RESUME****/
+
+.resumeinfo   {
+  font-family: 'Bitter' , serif;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.resumeinfo h2 {
+  font-size: 20px;
+
+}
+
+.resumeinfo h3 {
+  font-size: 18px;
+}
+
+.resumeinfo p {
+  font-size: 16px;
+}
+
+.resumeinfo li {
+  font-size: 14px;
+}
+
+
+
+/****FOOTER****/
+
+footer {
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+  padding-top: 25px;
+  color: #fff;
+  text-shadow: 2px 4px 2px black;
+  font-family: 'Bitter' , serif;
+}
+  
+}
